@@ -79,7 +79,9 @@ The capabilities are located in a json file. This file is mandatory. The values 
   "platformName": "Android",
   "avd": "{{avd}}",
   "resetKeyboard": "true",
-  "unicodeKeyboard": "true"
+  "unicodeKeyboard": "true",
+  "appPackage": "me.clockify.android",
+  "appActivity": "me.clockify.android.presenter.SplashActivity"
 }
 ```
 
