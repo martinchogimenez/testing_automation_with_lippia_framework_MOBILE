@@ -173,4 +173,3 @@ A Project Object Model or POM is the fundamental unit of work in Maven. It is an
 ```
         <cucumber.runner>testngParallel.xml</cucumber.runner>
 ```        
-# lippia-mobile-sample-project
