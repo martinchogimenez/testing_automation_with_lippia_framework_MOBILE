@@ -1,8 +1,8 @@
 # LIPPIA Mobile Project
 
 ## Purpose:
-The following project has the purpose of demonstrate and let test automation developers to
-to test a Mobile App using Lippia Automation Framework.
+This project has the intention of showing you a mobile automation testing suite case, using Lippia Automation Framework by using Gherkin and Page-Object Model pattern.
+This project includes the required components and configuration files to simply download and run the set of tests in your local computer.
 
 ## System Requirements: 
 + JDK: https://docs.oracle.com/en/java/javase/index.html 
@@ -79,7 +79,9 @@ The capabilities are located in a json file. This file is mandatory. The values 
   "platformName": "Android",
   "avd": "{{avd}}",
   "resetKeyboard": "true",
-  "unicodeKeyboard": "true"
+  "unicodeKeyboard": "true",
+  "appPackage": "me.clockify.android",
+  "appActivity": "me.clockify.android.presenter.SplashActivity"
 }
 ```
 
@@ -171,4 +173,3 @@ A Project Object Model or POM is the fundamental unit of work in Maven. It is an
 ```
         <cucumber.runner>testngParallel.xml</cucumber.runner>
 ```        
-# lippia-mobile-sample-project
